@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 body *{
@@ -8,9 +9,38 @@ body *{
     padding: 0;
 }
 
-.navbar-brand img{
-    width: 2rem;
+.navbar {
+    background-color: rgb(0 0 0 / 50%);
 }
 
-.carousel-item{
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.navbar-brand img{
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+#about-me {
+    background-color: #32B3B3;
+}
+
+hr {
+    border-top: .3rem solid white;
+    margin-bottom: 3rem;
+}
+
+.card-body, footer{
+    background-color: #FFC38D;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-title {
+    font-weight: 600;
+    text-transform: uppercase;
 }
